@@ -2,6 +2,12 @@
   font-family: "BBL";
   src: url('/fonts/BubblegumSans-Regular.ttf');
 }
+@font-face {
+  font-family: "GV";
+  src: url('../fonts/GreatVibes-Regular.ttf');
+}
+
+
 
 :root{
   --margin-bottom: 12px;
