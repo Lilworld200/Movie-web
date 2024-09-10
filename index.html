@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="/style/general.css">
+  <link rel="stylesheet" href="/style/navigation.css">
+  <link rel="stylesheet" href="/style/movies-containers.css">
+  <link rel="stylesheet" href="/style/subMovie.css">
+
+</head>
+  
+<body>
+  <header>
+    
+    <nav  class="nav-container">
+     
+    <div class="search-container">
+      <button type="button" id="search-button">
+      <img src="/images/logo/search-outline.svg" alt="search">
+      </button>
+      <input type="text" name="search-bar" id="search-bar">
+    </div>
+    <div class="menu-container">
+      <img src="/images/logo/hamburger.svg" alt="menu icon" id="hamburger">
+     <div class="drop-down-container" id="js-drop-down"     >
+       <button type="button" class="close_btn" id="js-close-btn"><img src="/images/logo/close-outline.svg" alt="closebtn"></button>
+       <button class="sub-Menu">Trending</button>
+       <button class="sub-Menu">Popular</button>
+       <button class="sub-Menu">Top Rated</button>
+       <button class="sub-Menu">TV-Shows</button>
+       <button class="sub-Menu">Up Coming</button>
+
+      </div>
+     </div>
+    </nav>
+  </header>
+   <section class="Heading-container">
+     <p class="Movie_heading" id="js-movie-heading" data-special-tag= "0">Latest Movies</p>
+   </section>
+  <main class="content-container" id="content-container">
+    
+  </main>
+   <section class="subMovie_Content" id="js-subMovie_Content">
+   </section>
+   <section class="load-more">
+     <button type="submit" id="load-more">
+       Load More
+     </button>
+   </section>
+  <footer class="summary-container">
+    
+  </footer>
+   <script src="/script/main.js" type="module"></script> 
+</body>
+</html>
